@@ -8,4 +8,6 @@ include_directories(.)
 add_executable(chapter3
         ArrayList.c
         ArrayList.h
-        ListMain.c)
+        ListMain.c
+        Ex3_1.c
+        Point.h Point.c PointListMain.c Ex3_2.c NameCard.h NameCard.c)
