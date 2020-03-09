@@ -26,10 +26,10 @@ int main(){
     printf("%s\n",name);
 
     if(LFirst(&list,&tmp)){
-        if(NameCompare(tmp,name))
+        if(NameCompare(tmp,name) == 0)
             ShowNameCardInfo(tmp);
         while(LNext(&list,&tmp)){
-            if(NameCompare(tmp,name))
+            if(NameCompare(tmp,name) == 0)
                 ShowNameCardInfo(tmp);
         }
     }
@@ -39,10 +39,10 @@ int main(){
     printf("%s\n",name);
 
     if(LFirst(&list,&tmp)){
-        if(NameCompare(tmp,name))
+        if(NameCompare(tmp,name) == 0)
             ChangePhoneNum(tmp,"010-0000-0000");
         while(LNext(&list,&tmp)){
-            if(NameCompare(tmp,name))
+            if(NameCompare(tmp,name) == 0)
                 ChangePhoneNum(tmp,"010-0000-0000");
         }
     }
@@ -52,12 +52,12 @@ int main(){
     printf("%s\n",name);
 
     if(LFirst(&list,&tmp)){
-        if(NameCompare(tmp,name)) {
+        if(NameCompare(tmp,name) == 0) {
             LRemove(&list);
             free(tmp);
         }
         while(LNext(&list,&tmp)){
-            if(NameCompare(tmp,name)){
+            if(NameCompare(tmp,name) == 0){
                 LRemove(&list);
                 free(tmp);
             }
