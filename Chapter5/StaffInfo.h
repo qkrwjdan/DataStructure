@@ -10,4 +10,6 @@ typedef struct _Info{
     int employeeNum;
 }Staff;
 
+void ShowEmployeeInfo(Staff * staff);
+
 #endif //CHAPTER5_STAFFINFO_H
