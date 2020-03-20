@@ -63,8 +63,8 @@ void PostorderTraverse(BTreeNode * bt, VisitFuncPtr action){
         return;
 
     PostorderTraverse(bt->left,action);
-    action(bt->data);
     PostorderTraverse(bt->right,action);
+    action(bt->data);
 }
 
 void DeleteTree(BTreeNode * bt){
