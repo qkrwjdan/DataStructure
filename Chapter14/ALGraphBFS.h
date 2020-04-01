@@ -1,9 +1,9 @@
 ////
-//// Created by macbook air on 2020-03-30.
+//// Created by macbook air on 2020-04-01.
 ////
 //
-//#ifndef CHAPTER14_ALGRAPHDFS_H
-//#define CHAPTER14_ALGRAPHDFS_H
+//#ifndef CHAPTER14_ALGRAPHBFS_H
+//#define CHAPTER14_ALGRAPHBFS_H
 //
 //#include "DLinkedList.h"
 //
@@ -14,9 +14,9 @@
 //    int numE;
 //    List * adjList;
 //    int * VisitInfo;
-//}ALGraph;
+//} ALGraph;
 //
-//void GraphInit(ALGraph * pg,int nv);
+//void GraphInit(ALGraph * pg, int nv);
 //
 //void GraphDestroy(ALGraph * pg);
 //
@@ -24,7 +24,6 @@
 //
 //void ShowGraphEdgeInfo(ALGraph * pg);
 //
-//void DFShowGraphVertex(ALGraph * pg, int startV);
+//void BFShowGraphVertex(ALGraph * pg, int startV);
 //
-//
-//#endif //CHAPTER14_ALGRAPHDFS_H
+//#endif //CHAPTER14_ALGRAPHBFS_H

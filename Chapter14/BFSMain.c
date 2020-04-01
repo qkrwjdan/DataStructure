@@ -1,11 +1,12 @@
 ////
-//// Created by macbook air on 2020-03-30.
+//// Created by macbook air on 2020-04-01.
 ////
 //
 //#include <stdio.h>
-//#include "ALGraphDFS.h"
+//#include "ALGraphBFS.h"
 //
 //int main(void){
+//
 //    ALGraph graph;
 //    GraphInit(&graph, 7);
 //
@@ -19,10 +20,12 @@
 //
 //    ShowGraphEdgeInfo(&graph);
 //
-//    DFShowGraphVertex(&graph,A); printf("\n");
-//    DFShowGraphVertex(&graph,C); printf("\n");
-//    DFShowGraphVertex(&graph,E); printf("\n");
-//    DFShowGraphVertex(&graph,G); printf("\n");
+//    BFShowGraphVertex(&graph,A);printf("\n");
+//    BFShowGraphVertex(&graph,C);printf("\n");
+//    BFShowGraphVertex(&graph,E);printf("\n");
+//    BFShowGraphVertex(&graph,G);printf("\n");
+//    BFShowGraphVertex(&graph,B);printf("\n");
+//    BFShowGraphVertex(&graph,D);printf("\n");
 //
 //    GraphDestroy(&graph);
 //    return 0;
